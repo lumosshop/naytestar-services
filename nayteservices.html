@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NayteStar Services</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #0a0a0a; color: white; }
+    header { padding: 25px 40px; display: flex; justify-content: space-between; align-items: center; background: #111; border-bottom: 1px solid #222; }
+    header h1 { font-size: 26px; color: #ff1b1b; }
+    nav a { margin-left: 20px; text-decoration: none; color: white; font-size: 16px; }
+    nav a:hover { color: #ff1b1b; }
+
+    .hero { padding: 120px 40px; text-align: center; background: linear-gradient(180deg,#111,#0a0a0a); }
+    .hero h2 { font-size: 50px; margin-bottom: 10px; color: #ff1b1b; }
+    .hero p { font-size: 18px; opacity: 0.8; }
+    .hero button {
+      margin-top: 30px;
+      padding: 14px 35px;
+      font-size: 18px;
+      background: #ff1b1b;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color: white;
+    }
+    .hero button:hover { background: #cc1515; }
+
+    .section { padding: 80px 40px; text-align: center; }
+    .services { display: flex; justify-content: center; gap: 40px; margin-top: 40px; flex-wrap: wrap; }
+    .card {
+      width: 250px;
+      background: #111;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #222;
+    }
+    .card h3 { color: #ff1b1b; margin-bottom: 10px; }
+    .card p { opacity: 0.85; }
+    .card button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ff1b1b;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .faq { max-width: 800px; margin: 0 auto; text-align: left; }
+    .faq-item { margin-bottom: 25px; }
+    .faq-item h4 { color: #ff1b1b; margin-bottom: 8px; }
+
+    footer { padding: 30px; background: #111; text-align: center; border-top: 1px solid #222; margin-top: 80px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>NayteStar Services</h1>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#faq">FAQ</a>
+    <a href="#order">Order</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Premium School Work Services</h2>
+  <p>Essays • Projects • Classes — handled professionally and quickly.</p>
+  <button onclick="window.location='#order'">Order Now</button>
+</section>
+
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Essays</h3>
+      <p>Any topic, any length. Professional writing with quick turnaround.</p>
+      <button>Buy (Placeholder)</button>
+    </div>
+
+    <div class="card">
+      <h3>Projects</h3>
+      <p>College, high school, coding, presentations & more.</p>
+      <button>Buy (Placeholder)</button>
+    </div>
+
+    <div class="card">
+      <h3>Classes</h3>
+      <p>Full course completion, quizzes, assignments & exams.</p>
+      <button>Buy (Placeholder)</button>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="section">
+  <h2>FAQ</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <h4>How do I place an order?</h4>
+      <p>You will purchase jere (placeholder links), we will start as soon as possible.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>How fast can work be completed?</h4>
+      <p>Depends on the purchase. Classes 1-2. Essays usually 1–12 hours. Projects vary.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>Refunds?</h4>
+      <p>No refunds after work has started. You can request revisions for free.</p>
+    </div>
+  </div>
+</section>
+
+<section id="order" class="section">
+  <h2>Place an Order</h2>
+  <p>After checkout, We will be notified.</p>
+  <br><br>
+  <button style="padding:15px 30px; font-size:18px; background:#ff1b1b; border:none; border-radius:6px; cursor:pointer; color:white;">Pay (Placeholder)</button>
+</section>
+
+<footer>
+  <p>NayteStar Services © 2025</p>
+</footer>
+
+</body>
+</html>
